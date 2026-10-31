@@ -1,5 +1,7 @@
 # Combat and equipment
 
+- [**Detailed damage and build testing guide**](damage-and-build-testing.md) — effects, legal armor, DPS controls and weapon comparisons.
+
 | Topic | Source |
 |---|---|
 | Weapon balance changes and honest DPS measurement | [Combat research and test protocol](balance-and-methodology.md) |
