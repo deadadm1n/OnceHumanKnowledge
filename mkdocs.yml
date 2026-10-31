@@ -31,6 +31,8 @@ theme:
     - search.highlight
     - content.action.edit
     - content.code.copy
+extra_css:
+  - assets/stylesheets/extra.css
 plugins:
   - search
 markdown_extensions:
@@ -50,6 +52,10 @@ nav:
       - Mechanics Index: knowledge/README.md
       - Evidence Standards: docs/EVIDENCE.md
       - Contributing: CONTRIBUTING.md
+  - Encyclopedia:
+      - All Deviations: encyclopedia/deviations.md
+      - All Observed Weapons: encyclopedia/weapons.md
+      - All Observed Armor: encyclopedia/armor.md
   - Mechanics:
       - Isles of Abyss:
           - Overview: knowledge/scenarios/README.md
