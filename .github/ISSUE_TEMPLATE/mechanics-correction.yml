@@ -1,0 +1,52 @@
+name: "🔎 Mechanics correction"
+description: "Report an outdated, incorrect, or scenario-specific claim"
+title: "[Correction] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for improving the accuracy of the knowledge base. Please link evidence; don't include secrets or private player data."
+  - type: input
+    id: location
+    attributes:
+      label: Page or claim
+      description: Link the file/section containing the claim.
+      placeholder: "knowledge/deviations/fusion-mechanics.md"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game patch / date
+      placeholder: "2026-10-21 / version 3.1.1"
+    validations:
+      required: true
+  - type: input
+    id: scenario
+    attributes:
+      label: Scenario / server phase
+      placeholder: "Isles of Abyss, Phase II"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is incorrect and what should it say?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and reproducible evidence
+      description: Cite official released patch notes, current in-game tooltip, tests, or clearly label community reports.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched for an existing issue about this claim.
+          required: true
+        - label: I distinguished released changes from developer previews or speculation.
+          required: true
