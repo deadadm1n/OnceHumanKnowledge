@@ -1,5 +1,7 @@
 # Scenarios
 
+- [**Isles of Abyss field guide**](isles-of-abyss-field-guide.md) — Tech, naval combat, diving, hazards, boss mechanics and resources.
+
 - [**Isles of Abyss** — launch, Tech, naval mechanics and October 2026 hotfixes](isles-of-abyss-2026.md)
 
 This is **not** a universal Once Human ruleset. Scenario-specific Tech progression, Cradle availability and Deviation squad rules can differ.
