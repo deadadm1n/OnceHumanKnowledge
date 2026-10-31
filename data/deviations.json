@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot": "2026-10-31",
-  "coverage": "68 core entries in one indexed catalog; does not cover every variant or event-only Deviation",
+  "coverage": "68 indexed core names; 23 with ability summaries from individual source pages, others remain unverified. Variants not enumerated.",
   "sources": [
     "https://oncehuman.th.gl/db/deviations",
     "https://wikily.gg/once-human/deviations",
@@ -11,28 +11,49 @@
     {
       "name": "Butterfly's Emissary",
       "role": "Combat",
-      "known_function": "Combat companion",
-      "skill_details": null,
+      "known_function": "Attacks designated targets and applies a weakspot-damage vulnerability; exact modifier and duration missing in database.",
+      "skill_details": [
+        {
+          "name": "Auto Attack; Designated Target",
+          "description": "Attacks designated targets and applies a weakspot-damage vulnerability; exact modifier and duration missing in database.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000001"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000001",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Festering Gel",
       "role": "Combat",
-      "known_function": "Healing and cover support",
-      "skill_details": null,
+      "known_function": "Creates defensive cover and restores nearby allies' HP and Sanity; exact coefficients unlisted.",
+      "skill_details": [
+        {
+          "name": "Build Shelter; Flawless Shelter",
+          "description": "Creates defensive cover and restores nearby allies' HP and Sanity; exact coefficients unlisted.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000008"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Ravenous Hunter: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000008",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Lonewolf's Whisper",
@@ -76,15 +97,27 @@
     {
       "name": "Pyro Dino",
       "role": "Combat",
-      "known_function": "Combat fire support",
-      "skill_details": null,
+      "known_function": "Fire attacker that increases Blaze damage taken and interacts with Burn to cause explosions; coefficient unknown.",
+      "skill_details": [
+        {
+          "name": "Auto Attack; Designated Target",
+          "description": "Fire attacker that increases Blaze damage taken and interacts with Burn to cause explosions; coefficient unknown.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000030"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Silo PHI: chance",
+        "Fusion-only detail conflicts with listed drops"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000030",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Dr. Teddy",
@@ -141,28 +174,51 @@
     {
       "name": "Zeno-Purifier",
       "role": "Combat",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Teleports toward targets for melee attacks and grants a related blink-strike interaction.",
+      "skill_details": [
+        {
+          "name": "Auto Attack; Designated Target",
+          "description": "Teleports toward targets for melee attacks and grants a related blink-strike interaction.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000038"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance",
+        "Fusion-only detail conflicts with listed sources"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000038",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Voodoo Doll",
       "role": "Combat",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Shares incoming damage with its owner or links a chosen target; source describes player split as half damage.",
+      "skill_details": [
+        {
+          "name": "Doppelganger; Designated Target",
+          "description": "Shares incoming damage with its owner or links a chosen target; source describes player split as half damage.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000047"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000047",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Shattered Maiden",
@@ -323,15 +379,27 @@
     {
       "name": "Harveseed",
       "role": "Crafting",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Produces a protective Whim that activates when health is low.",
+      "skill_details": [
+        {
+          "name": "Chloro-armor",
+          "description": "Produces a protective Whim that activates when health is low.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000009"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Treant boss: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000009",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Dreamcatcher",
@@ -349,41 +417,75 @@
     {
       "name": "Disco Ball",
       "role": "Crafting",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Produces a Whim that extends the duration of other Whim effects.",
+      "skill_details": [
+        {
+          "name": "Utter Delight",
+          "description": "Produces a Whim that extends the duration of other Whim effects.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000002"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000002",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Frog the Leaper",
       "role": "Crafting",
-      "known_function": "Spring Legs and bait resources",
-      "skill_details": null,
+      "known_function": "Produces a Whim that increases jumping ability while consuming stamina.",
+      "skill_details": [
+        {
+          "name": "Spring Legs",
+          "description": "Produces a Whim that increases jumping ability while consuming stamina.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000004"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Flow Regulator or Melting Pot encounters: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000004",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Gingerbread House",
       "role": "Crafting",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Produces a consumable that temporarily disguises the player as a scene object.",
+      "skill_details": [
+        {
+          "name": "Transformation Cookie",
+          "description": "Produces a consumable that temporarily disguises the player as a scene object.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000022"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000022",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Hug-in-a-Bowl",
@@ -479,15 +581,27 @@
     {
       "name": "Atomic Snail",
       "role": "Crafting",
-      "known_function": "Aero Leap crafting resources",
-      "skill_details": null,
+      "known_function": "Produces a Whim for an aerial dash.",
+      "skill_details": [
+        {
+          "name": "Aero Leap",
+          "description": "Produces a Whim for an aerial dash.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000042"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance",
+        "Manibus-only note in database requires checking current scenario"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000042",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Party Monkey",
@@ -531,15 +645,26 @@
     {
       "name": "Artisan's Touch",
       "role": "Crafting",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Makes a consumable that repairs an equipped, player-crafted item with low durability.",
+      "skill_details": [
+        {
+          "name": "All-Purpose Hand",
+          "description": "Makes a consumable that repairs an equipped, player-crafted item with low durability.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000056"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Fusion-only detail conflicts with listed boss and box drop sources"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000056",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Ice Pot",
@@ -557,15 +682,26 @@
     {
       "name": "Electric Eel",
       "role": "Territory",
-      "known_function": "Electricity generation support",
-      "skill_details": null,
+      "known_function": "Increases territory generator power capacity based on its Energy.",
+      "skill_details": [
+        {
+          "name": "Electricity Fluctuations",
+          "description": "Increases territory generator power capacity based on its Energy.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000005"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Strongholds (broad database claim)"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000005",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Chefosaurus Rex",
@@ -583,15 +719,26 @@
     {
       "name": "Buzzy Bee",
       "role": "Territory",
-      "known_function": "Crop mutation support",
-      "skill_details": null,
+      "known_function": "Raises mutation chance of planted crops; source links effectiveness to Deviant Energy.",
+      "skill_details": [
+        {
+          "name": "Deviated Gardening",
+          "description": "Raises mutation chance of planted crops; source links effectiveness to Deviant Energy.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000019"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance; database also lists Manibus-only acquisition, check scenario"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000019",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "H37",
@@ -609,28 +756,51 @@
     {
       "name": "Fetch-A-Lot Bunny",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Gathers wild plants and shrubs within its operation; effectiveness depends on Energy.",
+      "skill_details": [
+        {
+          "name": "Collect from Bushes",
+          "description": "Gathers wild plants and shrubs within its operation; effectiveness depends on Energy.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000014"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000014",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Nutcracker",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Guards territory and attacks intruders; Energy influences attack performance.",
+      "skill_details": [
+        {
+          "name": "Territory Guard",
+          "description": "Guards territory and attacks intruders; Energy influences attack performance.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000027"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Forsaken Giant boss: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000027",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Logging Beaver",
@@ -674,41 +844,76 @@
     {
       "name": "Growshroom",
       "role": "Territory",
-      "known_function": "Planting and harvesting support",
-      "skill_details": null,
+      "known_function": "Plants seeds, supports harvesting, and boosts crop growth; source states higher Deviant Energy improves growth rate.",
+      "skill_details": [
+        {
+          "name": "Thriving Growth",
+          "description": "Plants seeds, supports harvesting, and boosts crop growth; source states higher Deviant Energy improves growth rate.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000037"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Harvesting mushrooms: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000037",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Rain Man",
       "role": "Territory",
-      "known_function": "Watering support",
-      "skill_details": null,
+      "known_function": "Supports crop irrigation and vitality; Deviant Energy affects effectiveness.",
+      "skill_details": [
+        {
+          "name": "Hoping for a Downpour",
+          "description": "Supports crop irrigation and vitality; Deviant Energy affects effectiveness.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000039"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Rainfall Reaper: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000039",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Flame Essence",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Improves Furnace and Electric Furnace production efficiency.",
+      "skill_details": [
+        {
+          "name": "Molten Heat",
+          "description": "Improves Furnace and Electric Furnace production efficiency.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000048"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Red Sands and Blackheart reported"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000048",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Extradimensional Cat",
@@ -739,28 +944,51 @@
     {
       "name": "Lethal Rabbit",
       "role": "Territory",
-      "known_function": "Animal material collection support",
-      "skill_details": null,
+      "known_function": "Gathers meat and leather by hunting animals; Energy affects gathered resource output.",
+      "skill_details": [
+        {
+          "name": "Hunter Instincts",
+          "description": "Gathers meat and leather by hunting animals; Energy affects gathered resource output.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000055"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Silo SIGMA boss: chance",
+        "Securement Box: chance"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000055",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Gazocchio",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Patrols and attacks intruders; creates smaller lights that counter shadows.",
+      "skill_details": [
+        {
+          "name": "Territory Guard",
+          "description": "Patrols and attacks intruders; creates smaller lights that counter shadows.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000043"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Way of Winter acquisition indicated; contradictory fusion-only note"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000043",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Hydronaut Fish",
@@ -804,15 +1032,26 @@
     {
       "name": "Wish Box",
       "role": "Territory",
-      "known_function": "Converts stored resources into rewards hourly",
-      "skill_details": null,
+      "known_function": "Transforms deposited items into random rewards after digestion; the official announcement describes an hourly cycle.",
+      "skill_details": [
+        {
+          "name": "Unfair Trade",
+          "description": "Transforms deposited items into random rewards after digestion; the official announcement describes an hourly cycle.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000060"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Strongholds reported by database; historical official shop/crate sources differ"
+      ],
       "variants": [],
-      "status": "community-or-player-reported",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000060",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Director Fox",
@@ -843,28 +1082,48 @@
     {
       "name": "Duet",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Alters ordinary weather within the territory, without overriding special weather phenomena.",
+      "skill_details": [
+        {
+          "name": "Weather Control",
+          "description": "Alters ordinary weather within the territory, without overriding special weather phenomena.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000077"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [
+        "Sunken Lord chance (October 2026 official update)"
+      ],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000077",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Labrador",
       "role": "Territory",
-      "known_function": null,
-      "skill_details": null,
+      "known_function": "Follows its owner and restores Sanity over time; largely ignores other players without the owner.",
+      "skill_details": [
+        {
+          "name": "Furrever Friends",
+          "description": "Follows its owner and restores Sanity over time; largely ignores other players without the owner.",
+          "evidence": "SECONDARY_DATABASE",
+          "source_url": "https://oncehuman.th.gl/db/deviations/99000061"
+        }
+      ],
       "potential_passives": [],
       "securement_preferences": null,
-      "acquisition": null,
+      "acquisition": [],
       "variants": [],
-      "status": "name-and-role-indexed",
-      "source": "https://oncehuman.th.gl/db/deviations",
-      "snapshot": "2026-10-31"
+      "status": "ability-researched-secondary",
+      "source": "https://oncehuman.th.gl/db/deviations/99000061",
+      "snapshot": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "research_notes": "This is a paraphrased database description. Exact coefficients, passives and variant effects require patch/current-tooltip verification."
     },
     {
       "name": "Blackback",
@@ -892,5 +1151,6 @@
       "source": "https://oncehuman.th.gl/db/deviations",
       "snapshot": "2026-10-31"
     }
-  ]
+  ],
+  "last_researched": "2026-10-31"
 }
