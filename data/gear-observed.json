@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "snapshot": "2026-10-31",
+  "scope": "Player-observed subset (8 weapons, 22 armor) — NOT a complete global gear catalog.",
+  "sources": [
+    "player screenshots described in research",
+    "https://oncehuman.th.gl/db/gear",
+    "https://wikily.gg/once-human/"
+  ],
+  "stat_notes": "Tier 1-4 numeric stats unavailable in our evidence; null means unknown, NOT zero. Tier 5 weapon values are player screenshot snapshots, not standardized base stats.",
+  "weapons": [
+    {
+      "name": "R500 Memento",
+      "class": "Pistol",
+      "effect": "Fast Gunner",
+      "owned_blueprint_stars": 6,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 1242,
+          "fire_rate_rpm": 145,
+          "magazine": 5,
+          "crit_rate_pct": 4,
+          "crit_damage_pct": 25,
+          "weakspot_damage_pct": 65
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "MPS5 Kumawink",
+      "class": "SMG",
+      "effect": "Bounce",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 216,
+          "fire_rate_rpm": 750,
+          "magazine": 30,
+          "crit_rate_pct": 8,
+          "crit_damage_pct": 30,
+          "weakspot_damage_pct": 55
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "PDW90 Holographic Resonance",
+      "class": "SMG",
+      "effect": "Bull's Eye",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 137,
+          "fire_rate_rpm": 900,
+          "magazine": 50,
+          "crit_rate_pct": 8,
+          "crit_damage_pct": 45,
+          "weakspot_damage_pct": 30
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "SOCR The Last Valor",
+      "class": "Assault Rifle",
+      "effect": "Shrapnel",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 264,
+          "fire_rate_rpm": 515,
+          "magazine": 30,
+          "crit_rate_pct": 6,
+          "crit_damage_pct": 27,
+          "weakspot_damage_pct": 60
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "SOCR Cosmic Visitor",
+      "class": "Assault Rifle",
+      "effect": "Frost Vortex",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 264,
+          "fire_rate_rpm": 515,
+          "magazine": 30,
+          "crit_rate_pct": 6,
+          "crit_damage_pct": 27,
+          "weakspot_damage_pct": 60
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "SN700 Finale",
+      "class": "Sniper",
+      "effect": "Shrapnel",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 1117,
+          "fire_rate_rpm": 40,
+          "magazine": 5,
+          "crit_rate_pct": 10,
+          "crit_damage_pct": 30,
+          "weakspot_damage_pct": 45
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "AWS.338 Bullseye",
+      "class": "Sniper",
+      "effect": "Bull's Eye",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 1848,
+          "fire_rate_rpm": 40,
+          "magazine": 5,
+          "crit_rate_pct": 2,
+          "crit_damage_pct": 26,
+          "weakspot_damage_pct": 95
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    },
+    {
+      "name": "Compound Bow",
+      "class": "Crossbow",
+      "effect": "Unstable Bomber",
+      "owned_blueprint_stars": 1,
+      "observed_tier": 5,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": {
+          "damage": 1812,
+          "fire_rate_rpm": 90,
+          "magazine": 1,
+          "crit_rate_pct": 2,
+          "crit_damage_pct": 28,
+          "weakspot_damage_pct": 70
+        }
+      },
+      "status": "player-screenshot-transcribed",
+      "snapshot": "2026-10-31",
+      "note": "Tier V screenshot; not a controlled base-stat sample. Blueprint stars, calibration and scenario Tech can affect resulting stats."
+    }
+  ],
+  "armor": [
+    {
+      "name": "Lonewolf Hood",
+      "slot": "Head",
+      "set": "Lonewolf",
+      "owned_blueprint_stars": 6,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Lonewolf Mask",
+      "slot": "Mask",
+      "set": "Lonewolf",
+      "owned_blueprint_stars": 6,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Lonewolf Jacket",
+      "slot": "Chest",
+      "set": "Lonewolf",
+      "owned_blueprint_stars": 6,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Lonewolf Gloves",
+      "slot": "Gloves",
+      "set": "Lonewolf",
+      "owned_blueprint_stars": 6,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Shelterer Hat",
+      "slot": "Head",
+      "set": "Shelterer",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Shelterer Mask",
+      "slot": "Mask",
+      "set": "Shelterer",
+      "owned_blueprint_stars": 2,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Shelterer Pants",
+      "slot": "Pants",
+      "set": "Shelterer",
+      "owned_blueprint_stars": 2,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Shelterer Gloves",
+      "slot": "Gloves",
+      "set": "Shelterer",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Shelterer Shoes",
+      "slot": "Shoes",
+      "set": "Shelterer",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Hood",
+      "slot": "Head",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Mask",
+      "slot": "Mask",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Jacket",
+      "slot": "Chest",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Pants",
+      "slot": "Pants",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Gloves",
+      "slot": "Gloves",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bastille Shoes",
+      "slot": "Shoes",
+      "set": "Bastille",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": false,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Beret",
+      "slot": "Head",
+      "set": null,
+      "effect": "Shrapnel",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Viper Mask",
+      "slot": "Mask",
+      "set": null,
+      "effect": "Unstable Bomber",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Snowline Elite Vest",
+      "slot": "Chest",
+      "set": null,
+      "effect": "Frost Vortex",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Sharp Blade Pants",
+      "slot": "Pants",
+      "set": null,
+      "effect": "Bounce",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Hot Dog Shorts",
+      "slot": "Pants",
+      "set": null,
+      "effect": "Bounce",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Earthly Boots",
+      "slot": "Shoes",
+      "set": null,
+      "effect": "Bull's Eye",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    },
+    {
+      "name": "Bloodstained Tracker Boots",
+      "slot": "Shoes",
+      "set": null,
+      "effect": "Bull's Eye",
+      "owned_blueprint_stars": 1,
+      "is_key_armor": true,
+      "stats_by_tier": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+      },
+      "status": "player-inventory-transcribed"
+    }
+  ]
+}
