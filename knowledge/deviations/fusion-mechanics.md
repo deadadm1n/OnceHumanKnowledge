@@ -19,8 +19,12 @@ Source: https://www.oncehuman.game/news/update/20251223/40780_1278121.html
 Source: https://www.oncehuman.game/news/update/20260805/40780_1310273.html
 
 ## Cross-reference (community tool; NOT official)
-Wikily Fusion Simulator documents a fusion result preview for species odds, trait odds, Skill Rating, Activity Rating, and Stats Profile; materials are consumed. It shows a *five-minute* duration, modifiable by Advanced Recovery Potion; this timing is from the tool, not an independently verified official 2026 constant.
+Wikily Fusion Simulator documents a fusion result preview for species odds, trait odds, Skill Rating, Activity Rating, and Stats Profile; materials are consumed. It shows a *five-minute* duration, modifiable by Advanced Recovery Potion. **The five-minute base duration is confirmed by the April 8, 2026 official patch**; the potion interaction still needs current version verification.
 https://wikily.gg/once-human/deviation-fusion
+
+## April 2026 timing correction [OFFICIAL]
+- The April 8 patch explicitly adjusted Deviation Fusion time to **5 minutes**.
+- Source: https://www.oncehuman.game/news/update/20260408/40780_1295195.html
 
 ## Practical strategy
 1. Keep desirable high-rating parents for their one permitted parent fusion.
