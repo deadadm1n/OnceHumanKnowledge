@@ -2,7 +2,7 @@
 
 ## Versioned official changes
 - 2026-05-27: **R500 Memento and P90 Holographic Resonance were adjusted.** Any older DPS guide needs revalidation.
-- 2026-07-09: sniper balance changes including SN700 Finale/Reverb discussed in official patch.
+- 2026-07-09: SN700 Finale was **introduced**; its Reverb stacks increase Shrapnel parts hit and are cleared on reload or weapon switch. This is introduction documentation, not evidence of a nerf.
 - 2026-09-16: **MG4 Conflicting Memories** Shrapnel effect redesigned; proves the Shrapnel category is not static from version to version.
 - 2026-10-21: Cosmic Visitor / Snowline Elite Vest introduced around Frost Vortex and Ice Spears.
 
