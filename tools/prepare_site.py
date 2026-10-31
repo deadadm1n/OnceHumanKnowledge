@@ -81,11 +81,11 @@ for role in ("Combat", "Crafting", "Territory"):
         dev_index.append(f"| [{x['name']}](deviations/{filename}) | {x['known_function'] or 'Research pending'} | {x['status']} |")
         page = [f"# {x['name']}", "", f"**Category:** {role} · **Snapshot:** {x['snapshot']}", "",
                 "## What it does", "", x["known_function"] or "**Not yet documented.**", "",
-                "## Skills and abilities", "", "Detailed current ability text: **not yet verified**.", "",
+                "## Skills and abilities", "", *([f"**{a['name']}** — {a['description']} ([source]({a['source_url']}), independent database; coefficients may vary)" for a in (x.get("skill_details") or [])] or ["Detailed current ability text: **not yet verified**."]), "",
                 "## Possible passive traits", "", "Individual trait eligibility and passive levels: **not yet verified**.", "",
                 "## Securement and recovery", "", "Preferred environment, Power/Mood behavior: **not yet verified**.", "",
-                "## Acquisition and variants", "", "Locations and seasonal variants: **not yet verified**.", "",
-                "## Sources", "", f"- [Core catalog]({x['source']})", "- [Traits and passive reference](https://once-human.fandom.com/wiki/Deviation/traits)", "",
+                "## Acquisition and variants", "", *([f"- {item}" for item in x.get("acquisition", [])] or ["Acquisition is **not yet verified**."]), "", "Variants and individual variant effects: **not yet verified**.", "",
+                "## Sources", "", f"- [Individual Deviation source / core catalog]({x['source']})", "- [Traits and passive reference](https://once-human.fandom.com/wiki/Deviation/traits)", "",
                 "[← All Deviations](../deviations.md)"]
         p = catalog_root / "deviations" / filename
         p.parent.mkdir(exist_ok=True)
