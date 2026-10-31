@@ -52,6 +52,17 @@ This is **player research**, not an official NetEase resource. Reports of bugs o
 - [2026 official-source index](sources/official-2026.md)
 - [Focused patch audit](research/patch-history-audit-2026-10-31.md)
 
+## Community participation
+
+- [Report an incorrect mechanic](.github/ISSUE_TEMPLATE/mechanics-correction.yml)
+- [Submit a measured experiment](.github/ISSUE_TEMPLATE/research-submission.yml)
+- [Request research](.github/ISSUE_TEMPLATE/research-request.yml)
+- [Contribution instructions](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md)
+- [Support and security reporting](SUPPORT.md) · [Security policy](SECURITY.md)
+- [Pull request checklist](.github/pull_request_template.md)
+
+Pull requests run automated catalog, Markdown-link, and example-inventory checks. Maintainer review is requested through CODEOWNERS; enforcement requires branch protection to be enabled in GitHub settings.
+
 ## License and contributions
 
 Open a GitHub issue or pull request with a reproducible observation and references. **No license has been selected yet**; public visibility alone does not grant permission to redistribute this repository's contents. The maintainer can choose a license later.
