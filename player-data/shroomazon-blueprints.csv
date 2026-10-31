@@ -1,0 +1,31 @@
+category,name,slot,stars,effect_or_set,confidence
+weapon,R500 Memento,weapon,6,Fast Gunner,user-confirmed
+weapon,MPS5 Kumawink,weapon,1,Bounce,screenshot-review
+weapon,PDW90 Holographic Resonance,weapon,1,Bull's Eye,screenshot-review
+weapon,SOCR The Last Valor,weapon,1,Shrapnel,screenshot-review
+weapon,SOCR Cosmic Visitor,weapon,1,Frost Vortex,screenshot-review
+weapon,SN700 Finale,weapon,1,Shrapnel,screenshot-review
+weapon,AWS.338 Bullseye,weapon,1,Bull's Eye,screenshot-review
+weapon,Compound Bow,weapon,1,Unstable Bomber,screenshot-review
+armor,Lonewolf Hood,head,6,Lonewolf,user-confirmed
+armor,Lonewolf Mask,mask,6,Lonewolf,user-confirmed
+armor,Lonewolf Jacket,chest,6,Lonewolf,user-confirmed
+armor,Lonewolf Gloves,gloves,6,Lonewolf,user-confirmed
+armor,Shelterer Hat,head,1,Shelterer,screenshot-review
+armor,Shelterer Mask,mask,2,Shelterer,screenshot-review
+armor,Shelterer Pants,pants,2,Shelterer,screenshot-review
+armor,Shelterer Gloves,gloves,1,Shelterer,screenshot-review
+armor,Shelterer Shoes,shoes,1,Shelterer,screenshot-review
+armor,Bastille Hood,head,1,Bastille,screenshot-review
+armor,Bastille Mask,mask,1,Bastille,screenshot-review
+armor,Bastille Jacket,chest,1,Bastille,screenshot-review
+armor,Bastille Pants,pants,1,Bastille,screenshot-review
+armor,Bastille Gloves,gloves,1,Bastille,screenshot-review
+armor,Bastille Shoes,shoes,1,Bastille,screenshot-review
+key_armor,Beret,head,1,Shrapnel,screenshot-review
+key_armor,Viper Mask,mask,1,Unstable Bomber,screenshot-review
+key_armor,Snowline Elite Vest,chest,1,Frost Vortex,screenshot-review
+key_armor,Sharp Blade Pants,pants,1,Bounce,screenshot-review
+key_armor,Hot Dog Shorts,pants,1,Bounce,screenshot-review
+key_armor,Earthly Boots,shoes,1,Bull's Eye,screenshot-review
+key_armor,Bloodstained Tracker Boots,shoes,1,Bull's Eye,screenshot-review
