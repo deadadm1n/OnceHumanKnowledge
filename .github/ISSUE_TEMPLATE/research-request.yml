@@ -1,0 +1,29 @@
+name: "💡 Research request"
+description: "Request a mechanic, scenario or interaction to investigate"
+title: "[Request] "
+labels: []
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: What should we investigate?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Scenario / patch (if known)
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this matter, and what is already known?
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Existing guides, sources or related issues
+    validations:
+      required: false
