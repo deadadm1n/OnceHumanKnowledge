@@ -1,33 +1,57 @@
-# Once Human — Mechanics Knowledge Base
+# OnceHumanKnowledge
 
-An open, evidence-first knowledge base for **Once Human**, initially focused on **Isles of Abyss (October 2026)**.
+> Community-friendly, **version-aware** research about mechanics in **Once Human**, with a current emphasis on **Isles of Abyss**.
 
-**Status: v0.1 research foundation.** This is NOT an exhaustive or fully verified guide.
+**Status:** actively researched; **not** a complete or universally verified game wiki.  
+**Research snapshot:** October 31, 2026. Changes after that date require rechecking.
 
-## Contents
-- `knowledge/` — mechanics records with evidence levels and version applicability
-- `sources/` — sources with dates and links
-- `research/` — unanswered questions and reproducible tests
-- `player-data/` — example Shroomazon blueprints and gameplay observations
-- `tools/` — basic local validation
+## Start here
 
-## Evidence labels
-- **official**: explicitly stated in an official source, with its update date
-- **observed**: reported in an in-game test or screenshot; may have confounders
-- **community**: unverified player report
-- **hypothesis**: plausible, requires a test
-- **outdated**: superseded or contradicted by later updates
+| I want to… | Read |
+|---|---|
+| Find a gameplay mechanic | **[Mechanics index](knowledge/README.md)** |
+| Understand Deviations or fusion | [Deviations](knowledge/deviations/README.md) |
+| Improve a combat build | [Combat and equipment](knowledge/combat/README.md) |
+| Understand farming, livestock, power or water | [Production and survival](knowledge/production/README.md) |
+| Check Isles of Abyss rules | [Scenarios](knowledge/scenarios/README.md) |
+| See what changed in updates | [Patch history](research/README.md) |
+| Distinguish facts from guesses | [Evidence policy](docs/EVIDENCE.md) |
+| Contribute a correction or experiment | [Contributing](CONTRIBUTING.md) |
+| Help an AI agent use the data | [AI entry point](AGENTS.md) |
 
-Don't turn a hypothesis into a fact, mix scenario-specific mechanics, or claim a best-in-slot build without comparable testing.
+## How to read this project
 
-## Research priorities
-1. Combat damage equations, weakspot/crit interactions, trigger effects and boss defenses
-2. Legal gear combinations, key armor, mods and calibrations
-3. Controlled Memento vs Last Valor vs Finale boss DPS comparisons
-4. Farming, water, power, production and storage bottlenecks
-5. Animal breeding, trait inheritance and Acid production
-6. Deviations, Fusion Pod, Wish Box and cross-system interactions
-7. Naval systems, Conches, scenario rewards and the Starchrom economy
+- **Official** = a cited developer statement, with date. A historical announcement alone does not prove the behavior still applies today.
+- **Observed** = someone recorded a game behavior, screenshot or measurement.
+- **Community** = a player/wiki claim not independently validated.
+- **Hypothesis / unresolved** = a suggestion or open research question.
+- **Superseded** = an older rule replaced by a documented change.
 
-## Contributions
-Report the game version, scenario, exact observed behavior, setup, and sources. Open issues for contradictions. Avoid game-memory modification, anti-cheat bypass and gameplay automation.
+Always check **scenario**, **game version**, **date**, and **source**. See [the evidence policy](docs/EVIDENCE.md).
+
+## What's inside?
+
+```text
+knowledge/      Topic-based, reader-friendly mechanics pages and indexes
+research/       Historical audits, experiments, corrections and open questions
+sources/        Developer and community source registers
+player-data/    Example player observations and inventory (not universal mechanics)
+docs/           Editorial and evidence conventions
+tools/          Lightweight checks
+AGENTS.md       Guidance for AI assistants and coding agents
+```
+
+### Current priorities
+Precise damage calculations; mod interactions; Fusion and traits; ranching output; industrial rates; Isles of Abyss-specific differences.
+
+This is **player research**, not an official NetEase resource. Reports of bugs or accidental advantages are not promises about intended mechanics.
+
+## Quick source links
+
+- [Official update announcements](https://www.oncehuman.game/news/update/)
+- [2026 official-source index](sources/official-2026.md)
+- [Focused patch audit](research/patch-history-audit-2026-10-31.md)
+
+## License and contributions
+
+Open a GitHub issue or pull request with a reproducible observation and references. **No license has been selected yet**; public visibility alone does not grant permission to redistribute this repository's contents. The maintainer can choose a license later.
