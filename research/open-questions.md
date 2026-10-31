@@ -1,26 +1,37 @@
-# Open research questions and reproducible tests
+# Open questions and reproducible experiments
 
-## Priority 0 — Boss damage
-1. Compare Memento, Last Valor and Finale with recorded weapon level, calibration, ammo, mods, target, buff state, 10s/30s damage, hit frequency and reloads.
-2. Verify single unique Key Armor restriction in the current game UI.
-3. Verify how Bull's Eye carries through weapon swaps and whether Earthly Boots affects the subsequent weapon.
-4. Document current weapon damage, weakspot, crit, status and attack stacking.
-5. Check Isles of Abyss-specific combat exclusions.
+> **Last reviewed:** 2026-10-31. This is a research **backlog**, not an authoritative list of what the game does. See [answered questions](answered-questions-2026-10-31.md), [fusion research](../knowledge/deviations/fusion-mechanics.md), and the [evidence policy](../docs/EVIDENCE.md).
 
-## Priority 1 — Industrial systems
+## Already substantially answered — do not re-research blindly
+- **One Key Armor equipped at once:** strong community/wiki agreement; the current in-game UI remains final arbiter. [Evidence](answered-questions-2026-10-31.md#1-is-key-armor-limited-to-one-equipped-piece)
+- **Fusion parent consumption:** official rules say parents survive and extra materials are consumed. What's unknown is exact result weighting. [Fusion details](../knowledge/deviations/fusion-mechanics.md)
+- **Monthly Starchrom vs weekly:** the current acquisition counter is **monthly**; one player screenshot showed 66,000/66,000. [Progression](../knowledge/progression/mods-blueprints-calibration.md)
+- **Mod enhancement:** new and legacy mods differ; see [progression reference](../knowledge/progression/mods-blueprints-calibration.md).
+
+## Priority 0 — build optimization
+1. Compare R500 Memento, SOCR Last Valor and SN700 Finale with matched Tech, ammo, buffs and accurate 10s/30s timing. [Protocol](../knowledge/combat/balance-and-methodology.md).
+2. Verify **Bull's Eye mark persistence** through weapon switches and whether Earthly Boots applies to subsequent weapon hits.
+3. Quantify Weakspot, Crit, Attack, Status and Shrapnel damage **by damage type**. No universal formula is confirmed.
+4. Compare particular combat Deviation Battle Skills / Ultimates under Isles of Abyss rules.
+
+## Priority 1 — industrial outputs
 1. Measure pump output into empty storage over 10 minutes.
-2. Measure purifier and pipe delivery independently.
-3. Test salt crafting against the monthly Starchrom counter while avoiding unrelated activities.
-4. Log identical Wish Box deposits and all outputs over multiple cycles.
-5. Test sprinkler coverage from planter-level moisture indicators.
+2. Measure purifier and pipe delivery separately.
+3. Test whether salt crafting itself contributes to the Starchrom acquisition counter, isolating other activity.
+4. Log identical Wish Box deposits and every output over multiple cycles.
+5. Test sprinkler coverage from actual planter moisture readings.
 
-## Priority 1 — Agriculture, animals and Deviations
-1. Record goat trait levels, energy, byproduct interval and Acid amounts.
-2. Measure Growshroom seed/fertilizer usage, returns and planting behavior.
-3. Record Fusion Pod parent/material consumption and trait outcomes.
-4. Measure Rain Man's practical coverage and watering timing.
+## Priority 1 — animals, agriculture, Deviations
+1. Record goat Energy, Acid Secretion tier, byproduct interval and Acid collected per hour.
+2. Measure Growshroom seed/fertilizer consumption, harvest count and downtime.
+3. Record Fusion Pod parent/material combinations, displayed odds, outcomes and trait inheritance.
+4. Test Rain Man watering range and cadence.
+5. Compare Buzzy Bee crop mutation rate under fixed planting conditions.
 
 ## Priority 2 — Isles of Abyss
-1. Compare Conch gathering approaches and food buff effects.
-2. Document ship upgrade materials, trawl-net outcomes, Calamity Tower phases and reward caps.
-3. Confirm exact monthly Starchrom reset and cap-exempt sources.
+1. Compare oyster, coastal-gathering, and trawling Conch yield per minute.
+2. Document ship part upgrade requirements, Calamity Tower phases and reward limits.
+3. Verify which sources can award Starchrom beyond the normal monthly cap.
+
+## Reporting a result
+Give game version, scenario, setup, controlled variable, units, observed values, sample size and source links. A single observation is not a general rule.
