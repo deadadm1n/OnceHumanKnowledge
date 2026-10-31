@@ -23,7 +23,7 @@ Scope: answers found by following existing open questions. Labels: **official**,
 - https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html
 
 ## 5. Has Holographic Resonance's proc cadence changed?
-**Answer: YES — official proposed change in May balance blog.** The May 21 dev blog lists a 12-hit AoE trigger in its comparison and revised parameters. Cross-reference current tooltip before asserting an exact latest hit count, because the player's screenshot showed 11.
+**Answer: YES — the May 21 official before/after table explicitly changes the AoE trigger from every 12 weapon hits to every 11 hits, and the radius from 8m to 10m.** The player's screenshot showed 11, consistent with the after-value. The developer blog notes preview values could be adjusted before release; defer to a newer live tooltip when available.
 - https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html
 
 ## 6. How much Acid does a goat with Acid Secretion make?
