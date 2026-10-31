@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "title": "OnceHumanKnowledge",
+  "snapshot_date": "2026-10-31",
+  "summary": "Evidence-first, scenario-aware research index. Not every claim is verified.",
+  "read_first": [
+    "README.md",
+    "AGENTS.md",
+    "docs/EVIDENCE.md"
+  ],
+  "evidence_labels": [
+    "OFFICIAL",
+    "OFFICIAL PREVIEW",
+    "OBSERVED",
+    "COMMUNITY",
+    "INFERRED",
+    "HYPOTHESIS",
+    "SUPERSEDED",
+    "UNKNOWN"
+  ],
+  "collections": [
+    {
+      "id": "deviations",
+      "entry": "knowledge/deviations/README.md",
+      "files": [
+        "knowledge/deviations/fusion-mechanics.md",
+        "knowledge/deviations/securement-and-stats.md",
+        "knowledge/deviations/combat-skills-and-scenario-rules.md",
+        "knowledge/deviations/verified-notes.md"
+      ],
+      "tags": [
+        "fusion",
+        "traits",
+        "securement",
+        "power",
+        "mood",
+        "growshroom",
+        "wish box"
+      ]
+    },
+    {
+      "id": "combat",
+      "entry": "knowledge/combat/README.md",
+      "files": [
+        "knowledge/combat/balance-and-methodology.md",
+        "knowledge/progression/mods-blueprints-calibration.md"
+      ],
+      "tags": [
+        "memento",
+        "fast gunner",
+        "weakspot",
+        "shrapnel",
+        "blueprints",
+        "mods",
+        "calibration"
+      ]
+    },
+    {
+      "id": "production",
+      "entry": "knowledge/production/README.md",
+      "files": [
+        "knowledge/industry/electricity-and-liquids.md",
+        "knowledge/ranching/beastmaster-2026.md",
+        "knowledge/interactions/shroomazon-systems.md"
+      ],
+      "tags": [
+        "salt",
+        "water",
+        "electricity",
+        "animals",
+        "acid",
+        "farming"
+      ]
+    },
+    {
+      "id": "scenarios",
+      "entry": "knowledge/scenarios/README.md",
+      "files": [
+        "knowledge/scenarios/isles-of-abyss-2026.md"
+      ],
+      "tags": [
+        "isles of abyss",
+        "tech",
+        "voyager",
+        "naval"
+      ]
+    },
+    {
+      "id": "research",
+      "entry": "research/README.md",
+      "files": [
+        "research/patch-history-audit-2026-10-31.md",
+        "research/answered-questions-2026-10-31.md",
+        "research/corrections-audit-2026-10-31.md",
+        "research/open-questions.md"
+      ],
+      "tags": [
+        "patch notes",
+        "historical audit",
+        "unresolved",
+        "corrections"
+      ]
+    },
+    {
+      "id": "sources",
+      "entry": "sources/official-2026.md",
+      "files": [],
+      "tags": [
+        "official links"
+      ]
+    },
+    {
+      "id": "examples",
+      "entry": "player-data/shroomazon-blueprints.csv",
+      "files": [],
+      "tags": [
+        "example inventory",
+        "not universal"
+      ]
+    }
+  ],
+  "warnings": [
+    "Do not treat the October 2026 audit as complete coverage of all patches.",
+    "Historical official sources may be superseded.",
+    "Player inventory is not global balance data.",
+    "Do not infer DPS from single-hit damage."
+  ]
+}
