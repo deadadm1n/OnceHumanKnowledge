@@ -23,6 +23,7 @@
       "id": "deviations",
       "entry": "knowledge/deviations/README.md",
       "files": [
+        "knowledge/deviations/fusion-and-combat-reference.md",
         "knowledge/deviations/fusion-mechanics.md",
         "knowledge/deviations/securement-and-stats.md",
         "knowledge/deviations/combat-skills-and-scenario-rules.md",
@@ -42,6 +43,8 @@
       "id": "combat",
       "entry": "knowledge/combat/README.md",
       "files": [
+        "knowledge/progression/mods-and-blueprints-deep-dive.md",
+        "knowledge/combat/damage-and-build-testing.md",
         "knowledge/combat/balance-and-methodology.md",
         "knowledge/progression/mods-blueprints-calibration.md"
       ],
@@ -59,6 +62,8 @@
       "id": "production",
       "entry": "knowledge/production/README.md",
       "files": [
+        "knowledge/ranching/energy-breeding-and-classes.md",
+        "knowledge/industry/coastal-production-playbook.md",
         "knowledge/industry/electricity-and-liquids.md",
         "knowledge/ranching/beastmaster-2026.md",
         "knowledge/interactions/shroomazon-systems.md"
@@ -76,6 +81,7 @@
       "id": "scenarios",
       "entry": "knowledge/scenarios/README.md",
       "files": [
+        "knowledge/scenarios/isles-of-abyss-field-guide.md",
         "knowledge/scenarios/isles-of-abyss-2026.md"
       ],
       "tags": [
