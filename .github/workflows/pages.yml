@@ -12,6 +12,8 @@ on:
       - "sources/**"
       - "docs/**"
       - "player-data/**"
+      - "data/**"
+      - "assets/**"
       - "*.md"
       - "*.json"
       - ".github/workflows/pages.yml"
