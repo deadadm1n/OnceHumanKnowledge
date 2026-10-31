@@ -1,0 +1,18 @@
+:root { --md-text-font: "Inter", "Segoe UI", sans-serif; }
+.md-typeset { font-size: .88rem; line-height: 1.72; }
+.md-typeset h1 { font-weight: 800; letter-spacing: -.025em; }
+.md-typeset h2 { margin-top: 2rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); padding-bottom: .35rem; }
+.md-grid { max-width: 88rem; }
+.md-content__inner { max-width: 66rem; margin: 0 auto; }
+.md-sidebar--primary { width: 14.6rem; }
+.md-typeset table:not([class]) { display: table; width: 100%; font-size: .76rem; }
+.md-typeset table:not([class]) th { font-weight: 750; }
+.md-typeset table:not([class]) tr:nth-child(even) { background: var(--md-code-bg-color); }
+.md-typeset .admonition { border-radius: .7rem; }
+.md-typeset a { text-decoration-thickness: .06em; text-underline-offset: .12em; }
+.md-header { box-shadow: 0 2px 14px rgba(0,0,0,.09); }
+@media (max-width: 760px) {
+ .md-typeset { font-size: .82rem; }
+ .md-typeset table:not([class]) { display: block; overflow-x: auto; }
+ .md-content__inner { padding: 0 .1rem; }
+}
