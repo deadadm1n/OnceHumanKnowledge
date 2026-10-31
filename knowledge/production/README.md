@@ -1,5 +1,8 @@
 # Production, agriculture and ranching
 
+- [**Coastal production playbook**](../industry/coastal-production-playbook.md) — factory flow, throughput, resource bottlenecks and experiments.
+- [**Animal Energy, breeding and classes**](../ranching/energy-breeding-and-classes.md) — practical September 2026 rules.
+
 | System | Document |
 |---|---|
 | Territory electricity, liquid transfers and unresolved pipe rules | [Electricity and liquids](../industry/electricity-and-liquids.md) |
