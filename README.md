@@ -5,6 +5,8 @@
 **Status:** actively researched; **not** a complete or universally verified game wiki.  
 **Research snapshot:** October 31, 2026. Changes after that date require rechecking.
 
+**Expanded research guides:** [Complete mechanics index](knowledge/README.md) covers the October 2026 scenario, combat, Deviations, blueprint progression, ranching and coastal production.
+
 ## Start here
 
 | I want to… | Read |
