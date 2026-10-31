@@ -1,0 +1,92 @@
+site_name: OnceHumanKnowledge
+site_description: Evidence-first Once Human mechanics, research and patch history
+site_url: https://deadadm1n.github.io/OnceHumanKnowledge/
+repo_url: https://github.com/deadadm1n/OnceHumanKnowledge
+repo_name: deadadm1n/OnceHumanKnowledge
+edit_uri: edit/main/
+docs_dir: .site-src
+site_dir: site
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - Home: index.md
+  - Start Here:
+      - Project Overview: README.md
+      - Mechanics Index: knowledge/README.md
+      - Evidence Standards: docs/EVIDENCE.md
+      - Contributing: CONTRIBUTING.md
+  - Mechanics:
+      - Isles of Abyss:
+          - Overview: knowledge/scenarios/README.md
+          - Field Guide: knowledge/scenarios/isles-of-abyss-field-guide.md
+          - Launch and Hotfixes: knowledge/scenarios/isles-of-abyss-2026.md
+      - Deviations:
+          - Overview: knowledge/deviations/README.md
+          - Fusion and Combat: knowledge/deviations/fusion-and-combat-reference.md
+          - Fusion Rules: knowledge/deviations/fusion-mechanics.md
+          - Securement and Stats: knowledge/deviations/securement-and-stats.md
+          - Combat Skills: knowledge/deviations/combat-skills-and-scenario-rules.md
+          - Territory Deviations: knowledge/deviations/verified-notes.md
+      - Combat:
+          - Overview: knowledge/combat/README.md
+          - Damage and Build Testing: knowledge/combat/damage-and-build-testing.md
+          - Balance History: knowledge/combat/balance-and-methodology.md
+      - Progression:
+          - Blueprint and Mod Deep Dive: knowledge/progression/mods-and-blueprints-deep-dive.md
+          - Historical Mechanics: knowledge/progression/mods-blueprints-calibration.md
+      - Production:
+          - Overview: knowledge/production/README.md
+          - Coastal Factory: knowledge/industry/coastal-production-playbook.md
+          - Electricity and Liquids: knowledge/industry/electricity-and-liquids.md
+          - Ranching and Classes: knowledge/ranching/energy-breeding-and-classes.md
+          - Ranching Patch: knowledge/ranching/beastmaster-2026.md
+          - System Interactions: knowledge/interactions/shroomazon-systems.md
+      - Research Baseline: knowledge/core-mechanics.md
+  - Research:
+      - Index: research/README.md
+      - Coverage Matrix: research/coverage-matrix-2026-10-31.md
+      - Patch History Audit: research/patch-history-audit-2026-10-31.md
+      - Answered Questions: research/answered-questions-2026-10-31.md
+      - Open Questions: research/open-questions.md
+      - Corrections Audit: research/corrections-audit-2026-10-31.md
+  - Sources: sources/official-2026.md
+  - Community:
+      - Support: SUPPORT.md
+      - Conduct: CODE_OF_CONDUCT.md
+      - Security: SECURITY.md
+      - AI Instructions: AGENTS.md
