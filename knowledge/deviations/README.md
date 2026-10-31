@@ -1,5 +1,7 @@
 # Deviations
 
+- [**Expanded Deviation mechanics reference**](fusion-and-combat-reference.md) — fusion, Power/Mood, traits, Battle Skills and scenario distinctions.
+
 | Question | Document |
 |---|---|
 | What survives/gets consumed in Fusion? | [Fusion mechanics](fusion-mechanics.md) |
