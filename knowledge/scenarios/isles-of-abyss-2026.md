@@ -36,3 +36,9 @@
 - Effective Tech breakpoints for mod subattributes and equipment rarity.
 - Conch per minute for oyster, coastal gathering and trawling.
 - Which buffs interact with ship cannons vs player weapons.
+
+## October 29–30, 2026 live hotfixes [OFFICIAL]
+- October 29: Sunk Voyager ships drop Voyager Loot Crates pickable by anyone; crates expire **2 minutes** after sinking.
+- October 29: Automatic specialty-resource extraction is available only **within the corresponding calamity-zone island range**, not simply anywhere offshore.
+- October 30: Fixed boat auto-repair facilities becoming un-interactable when damaged; increased wilderness Precision Gear Set availability.
+Sources: https://www.oncehuman.game/news/update/20261029/40780_1318118.html and https://www.oncehuman.game/news/update/20261030/40780_1318256.html
