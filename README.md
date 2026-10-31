@@ -7,6 +7,21 @@
 
 **Expanded research guides:** [Complete mechanics index](knowledge/README.md) covers the October 2026 scenario, combat, Deviations, blueprint progression, ranching and coastal production.
 
+## Documentation website
+
+The knowledge base is configured to publish at **https://deadadm1n.github.io/OnceHumanKnowledge/** using GitHub Pages + Material for MkDocs.
+
+**One-time maintainer setup:** open **Settings → Pages → Build and deployment → Source → GitHub Actions**. Then run **Actions → Publish OnceHumanKnowledge → Run workflow** if no deployment ran automatically.
+
+The `pages.yml` workflow builds from the canonical Markdown files and deploys the static site after changes are merged into `main`. The site is not guaranteed live until GitHub Pages is enabled and a deployment succeeds.
+
+**Local preview:**
+```bash
+python -m pip install -r requirements-docs.txt
+python tools/prepare_site.py
+mkdocs serve
+```
+
 ## Start here
 
 | I want to… | Read |
