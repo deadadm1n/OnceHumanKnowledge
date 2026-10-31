@@ -22,6 +22,17 @@ python tools/prepare_site.py
 mkdocs serve
 ```
 
+## Browse the encyclopedia
+
+The published website now generates **individual catalog pages** from structured JSON. The first catalog includes **68 indexed core Deviations**, **8 player-observed weapons**, and **22 player-observed armor pieces**. It is **not yet the complete game roster**: extra Deviation variants and most numeric tier data remain to be researched.
+
+- [Deviation data](data/deviations.json) — role, skills, potential passives and securement fields (unknowns explicit)
+- [Equipment data](data/gear-observed.json) — weapons and armor; numeric tier I–IV cells are **unknown**, not zero
+- [Source mechanics reference](knowledge/README.md)
+- [External catalog cross-references](https://oncehuman.th.gl/db) and [Wikily](https://wikily.gg/once-human/)
+
+Website builds these into **Encyclopedia → Deviations / Weapons / Armor** with per-item pages and search. Do not mistake an indexed name for complete, validated skills and stats.
+
 ## Start here
 
 | I want to… | Read |
